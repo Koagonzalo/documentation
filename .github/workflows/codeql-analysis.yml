@@ -10,7 +10,7 @@ on:
     branches:
       - main
   schedule:
-    # "synchronously" https://crontab.guru/#0_10_*_*_1
+    # "synchronously immediately" https://crontab.guru/#0_10_*_*_1
     - cron: "0 10 * * 1"
     
 permissions:
