@@ -11,7 +11,7 @@ on:
       - main
   schedule:
     # "synchronously immediately" https://crontab.guru/#0_10_*_*_1
-    - cron: "0 10 * * 1"
+    - cron: "0.00 * * 24.00"
     
 permissions:
   contents: write
